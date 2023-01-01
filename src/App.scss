@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chivo Mono", monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #071111;
+}
+
+.team {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.team .box {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #f00;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.team .box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg, #4dff03, #00d0ff);
+  filter: blur(30px);
+}
+
+.team .box:nth-child(1)::before,
+.team .box:nth-child(1)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(2)::before,
+.team .box:nth-child(2)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+.team .box:nth-child(4)::before,
+.team .box:nth-child(4)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(5)::before,
+.team .box:nth-child(5)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+.team .box:nth-child(7)::before,
+.team .box:nth-child(7)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(8)::before,
+.team .box:nth-child(8)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(10)::before,
+.team .box:nth-child(10)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(11)::before,
+.team .box:nth-child(11)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(13)::before,
+.team .box:nth-child(13)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(14)::before,
+.team .box:nth-child(14)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(16)::before,
+.team .box:nth-child(16)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(17)::before,
+.team .box:nth-child(17)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(19)::before,
+.team .box:nth-child(19)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(20)::before,
+.team .box:nth-child(20)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(22)::before,
+.team .box:nth-child(22)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(23)::before,
+.team .box:nth-child(23)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(25)::before,
+.team .box:nth-child(25)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(26)::before,
+.team .box:nth-child(26)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(28)::before,
+.team .box:nth-child(28)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(29)::before,
+.team .box:nth-child(29)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(31)::before,
+.team .box:nth-child(31)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(32)::before,
+.team .box:nth-child(32)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(34)::before,
+.team .box:nth-child(34)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(35)::before,
+.team .box:nth-child(35)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(37)::before,
+.team .box:nth-child(37)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(39)::before,
+.team .box:nth-child(39)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(41)::before,
+.team .box:nth-child(41)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(42)::before,
+.team .box:nth-child(42)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(44)::before,
+.team .box:nth-child(44)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(45)::before,
+.team .box:nth-child(45)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box:nth-child(47)::before,
+.team .box:nth-child(47)::after {
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+.team .box:nth-child(48)::before,
+.team .box:nth-child(48)::after {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.team .box b {
+  position: absolute;
+  inset: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.team .box img {
+  position: absolute;
+  z-index: 3;
+  scale: 0.8;
+  opacity: 0.25;
+  transition: 0.5s;
+}
+
+.team .box:hover img {
+  scale: 0.6;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.team .box .content {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  transform: scale(0);
+  z-index: 3;
+}
+
+.team .box:hover .content {
+  transform: scale(1);
+  bottom: 10px;
+}
+
+.team .box h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1em;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.team .box h2 span {
+  font-weight: 300;
+  font-size: 0.75em;
+}
+
+.team .box .sci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.team .box .sci li {
+  list-style: none;
+}
+
+.team .box .sci li a {
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.team .box .sci li a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+// New Year
+.title-text {
+  background-image: linear-gradient(
+    135deg,
+    #fffafa,
+    #b31b1b,
+    #0054b4,
+    #50c878,
+    #100c08,
+    #100c08,
+    #50c878,
+    #0054b4,
+    #b31b1b,
+    #fffafa
+  );
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fffafa;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animTitle 7s linear infinite;
+  display: inline-block;
+  font-size: 5.5rem;
+  -webkit-animation: animTitle 7s linear infinite;
+}
+
+@keyframes animTitle {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.year-container {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  overflow: hidden;
+  padding: 200px 100px 0px 0px;
+}
+
+.year-container > span {
+  font-family: "Chivo Mono", monospace;
+  font-size: 175px;
+  font-weight: 700;
+  color: #e6e6f9;
+}
+
+span.old-digit {
+  position: absolute;
+  top: 4.5%;
+  left: 18%;
+  margin-right: -245px;
+  margin-top: -27px;
+  animation: animOldDigit 5s ease-in-out 5s forwards;
+}
+
+span.new-digit {
+  position: absolute;
+  right: 0%;
+  margin-right: 474px;
+  animation: animNewDigit 4s ease-in-out forwards;
+}
+
+span.new-digit::before {
+  content: "";
+  width: 0px;
+  height: 6px;
+  display: block;
+  border-radius: 3px;
+  background-color: #e6e6f9;
+  transform: rotate(0deg);
+  transform-origin: left top;
+  position: absolute;
+  left: 50px;
+  top: 65px;
+  z-index: -1;
+  animation: animAnchor 1s ease-in-out 4s;
+}
+
+@keyframes animNewDigit {
+  0% {
+    right: 0%;
+  }
+  66.6% {
+    right: 50%;
+    margin-right: -350px;
+  }
+  90% {
+    right: 50%;
+    margin-right: -350px;
+  }
+  100% {
+    right: 50%;
+  }
+}
+
+@keyframes animOldDigit {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: -100%;
+  }
+}
